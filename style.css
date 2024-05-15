@@ -4,3 +4,19 @@
     max-width: 100%;
     margin: 10px auto 0;
   }
+
+  .custom-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .custom-list li {
+    margin-bottom: 10px;
+    border: none;
+  }
+  
+  .custom-list li::before {
+    content: "•"; 
+    margin-right: 10px; 
+  }
+  
