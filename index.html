@@ -5,43 +5,122 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>Ignacio Corrao - Diseñador Gráfico y Web</title>
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-          </li>
+  <!-- hero -->
+  <header id="home">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container">
+        <a class="navbar-brand navbar-title" href="#home">Ignacio Corrao</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#conocimientos">Conocimientos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container hero-container-arriba">
+      <div class="hero-container-texto">
+        <h3>Hola, soy</h3>
+        <h1>Ignacio Corrao</h1>
+        <h2>Diseñador Gráfico/Web</h2>
+        <p>7 Años de experiencia en Diseño Gráfico</p>
+  
+        <div class="hero-botones-contenedor">
+          <a href="#contacto" class="boton">Contacto</a>
+          <a href="#portfolio" class="boton boton-2">Ver Portfolio</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- /hero -->
+
+  <!-- habilidades -->
+  <div class="container mt-5">
+    <h2 class="subtitulo">Lo Que Sé Hacer</h2>
+    <h1 class="titulo" id="conocimientos">Conocimientos</h1>
+    <div class="conocimientos">
+    
+      <div class="row grafico">
+      <div class="col-md-6">
+        <h4 class="conocimientos-titulo">Diseño Gráfico</h4>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">• Adobe Illustrator</li>
+          <li class="list-group-item">• Adobe InDesign</li>
+          <li class="list-group-item">• Adobe Photoshop</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h4 class="invisible">Placeholder</h4>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">• Diseño editorial</li>
+          <li class="list-group-item">• Edición de fotografías</li>
+          <li class="list-group-item">• Preimpresión y preparación de archivos para impresión</li>
         </ul>
       </div>
     </div>
-  </nav>
 
-  <div class="container mt-4 mb-4">
+    <div class="row web">
+      <div class="col-md-6">
+        <h4 class="conocimientos-titulo">Diseño Web</h4>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">• HTML5</li>
+          <li class="list-group-item">• CSS3</li>
+          <li class="list-group-item">• JavaScript</li>
+          <li class="list-group-item">• Responsive Design</li>
+          <li class="list-group-item">• Bootstrap</li>
+          <li class="list-group-item">• Grid Layout</li>
+          <li class="list-group-item">• Flexbox</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h4 class="conocimientos-titulo">Control de Versiones</h4>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">• Git</li>
+          <li class="list-group-item">• GitHub</li>
+        </ul>
+        <h4 class="mt-2 conocimientos-titulo">Frameworks y Librerías</h4>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">• React</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- /habilidades -->
+
+  <!-- portfolio -->
+<div class="container mt-5 mb-4 publicaciones" id="portfolio">
+  <h2 class="subtitulo">Experiencia Profesional</h2>
+  <h1 class="titulo">Trabajos Realizados</h1>  
     <h2>Publicaciones de Marcas para Catálogos Web</h2>
     <ul class="list-group list-group-flush d-flex justify-content-between">
-      <li class="list-group-item"><a target="_blank" href="https://publicacionespunto.com/cavallferr/" class="fs-5">Cavall Ferr</a></li>
-      <li class="list-group-item"><a target="_blank" href="https://publicacionespunto.com/ferriplast/" class="fs-5">Ferriplast</a></li>
-      <li class="list-group-item"><a target="_blank" href="https://publicacionespunto.com/electromas/" class="fs-5">Electromás</a></li>
-      <li class="list-group-item"><a target="_blank" href="https://publicacionespunto.com/electrinet/" class="fs-5">Electrinet</a></li>
-      <li class="list-group-item"><a target="_blank" href="https://publicacionespunto.com/electricidademilio/" class="fs-5">Electricidad Emilio</a></li>
+      <li class="list-group-item"><a target="_blank" class="link fs-5" href="https://publicacionespunto.com/cavallferr/">Cavall Ferr</a></li>
+      <li class="list-group-item"><a target="_blank" class="link fs-5" href="https://publicacionespunto.com/ferriplast/">Ferriplast</a></li>
+      <li class="list-group-item"><a target="_blank" class="link fs-5" href="https://publicacionespunto.com/electromas/">Electromás</a></li>
+      <li class="list-group-item"><a target="_blank" class="link fs-5" href="https://publicacionespunto.com/electrinet/">Electrinet</a></li>
+      <li class="list-group-item"><a target="_blank" class="link fs-5" href="https://publicacionespunto.com/electricidademilio/">Electricidad Emilio</a></li>
     </ul>
   </div>
   
-  
-  
-
-
   <div class="container">
-    <h2 class="text-center mb-4">Catálogos Impresos</h2>
+    <h2 class="mb-4">Catálogos Impresos</h2>
     <div id="carouselExample" class="carousel slide" data-bs-ride="false">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -120,8 +199,8 @@
     </button>
   </div>
 
-  <div class="container mt-4">
-    <h2 class="text-center mb-4">Proyectos de Diseño Web</h2>
+  <div class="container mt-4 mb-4">
+    <h2 class="mb-4">Proyectos de Diseño Web</h2>
     <div class="row">
         <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
@@ -191,11 +270,64 @@
         </div>
     </div>
 </div>
+<!-- /portfolio -->
+
+<!-- contacto -->
+<section class="container mt-5 mb-4" id="contacto-section">
+  <h2 class="subtitulo" id="contacto">Para Propuestas</h2>
+  <h1 class="titulo">Contacto</h1>
+  <form
+    action="https://formspree.io/f/mjvnqvdo"
+    method="POST"
+    class="form-container">
+    
+      <label for="name" class="form-label">Ingrese su nombre</label>
+      <input id="name" type="text" name="name" class="form-control" placeholder="Nombre" required/>
+    
+      <label for="email" class="form-label">Ingrese su email</label>
+      <input id="email" type="email" name="email" class="form-control" placeholder="Email" required/>
+    
+      <label for="subject" class="form-label">Ingrese su asunto</label>
+      <input id="subject" type="text" name="subject" class="form-control" placeholder="Asunto" />
+    
+      <label for="message" class="form-label">Ingrese su mensaje</label>
+      <textarea id="message" name="message" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+    
+    <button class="boton" type="submit">Enviar</button>
+  </form>
+</section>
+
+<!-- /contacto -->
 
 
-
+<!-- footer -->
+<footer class="mt-5">
+  <div class="container p-4">
+      <div class="row">
+          <div class="footer-firma col-md-6 col-lg-6">
+              <h5 class="text-uppercase text-white">Ignacio Corrao</h5>
+              <p class="text-white">
+                  Diseñador Gráfico y Web
+              </p>
+          </div>
+          <div class="redes col-md-6 col-lg-6">
+              <h5 class="text-uppercase text-white">Redes Sociales</h5>
+              <ul class="list-unstyled d-flex">
+                  <li><a href="https://www.linkedin.com/in/ignacio-corrao-814016257/" class="text-white me-3">LinkedIn</a></li>
+                  <li><a href="https://github.com/icorrao" class="text-white me-3">GitHub</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  <div class="copyright text-center p-3">
+      © 2024 Ignacio Corrao
+  </div>
+</footer>
+<!-- /footer -->
   
-
+<img src="img/dibujo_fondo-izq.530629c71a017a4e8aec.jpg" id="dibujo-1" alt="">
+<img src="img/dibujo_fondo-der.fb342b895412e7375cec.jpg" id="dibujo-2" alt="">
+<img src="img/dibujo_fondo-izq.530629c71a017a4e8aec.jpg" id="dibujo-3" alt="">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
