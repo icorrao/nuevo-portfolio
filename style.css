@@ -283,12 +283,22 @@ header#home {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 576px) {
+
+  html {
+    font-size: 12px;
+  }
+
+  body {
+    margin-top: 62px;
+  }
+
+  h1, h2 {
+    text-align: center;
+  }
+
   .hero-container {
     padding-top: 120px;
-  }
-  .hero-container-arriba {
-    flex-direction: column-reverse;
   }
 
   .hero-container-texto {
